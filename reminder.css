@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.box{
+    background-color: cadetblue;
+    text-align: center;
+   
+
+    width: 35%;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    min-height: 40vh;
+    
+}
+.box2{
+    min-height: 40vh;
+    width: 35%;
+    background-color: cadetblue;
+    float: right;
+    position:absolute;
+    top: 3%;
+    right: 2%;
+    border: 5px solid rgb(255, 255, 255);
+}

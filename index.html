@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remind Me...</title>
+    <link rel="stylesheet" href="./reminder.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+            <p class="para1">A Message You Would Like To Pass</p>
+            <input type="text" size="40" id="msg" class="inp1"><br><br>
+            <button class="btn1" id="sanil" onclick="clickhere()">Submit</button><br><br>
+            <button  id="stopBtn">Stop</button><br><br>
+
+            <label>Set Time:</label>
+            <select id="dropdown">
+                <option value="1">1sec</option>
+                <option value="2">2sec</option>
+                <option value="3">3sec</option>
+                <option value="4">4sec</option>
+                <option value="5">5sec</option>
+                <option value="6">6sec</option>
+                <option value="7">7sec</option>
+                <option value="8">8sec</option>
+                <option value="9">9sec</option>
+            </select>
+            <p class="para2"><strong>Last Message Delivered</strong></p>
+            
+            <ul id="myUL"></ul>
+            
+
+            
+
+        </div>
+    </div>
+    <div class="box2">
+        <h3>List of Remainders</h3>
+        <ul id="myul2">
+        
+        </ul>
+
+    </div>
+
+
+
+
+
+
+    <script src="./reminder.js"></script>
+</body>
+
+</html>
